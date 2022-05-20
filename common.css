@@ -61,13 +61,19 @@
       transition: 2s;
   }
    .ex-5-square:hover{
-    opacity: 0;
+    transform: scale(2);
   }
-  .ex-5-square:hover{
-    opacity: 0;
+  .ex-5-square:active{
+    transform: scale(1);
   }
   .ex-5-square{
-      transition: 2s;
+      transition: 1s;
+  }
+  .ex-6-square:hover{
+    filter: grayscale(1);
+  }
+  .ex-6-square{
+      transition: 1s;
   }
   
 
